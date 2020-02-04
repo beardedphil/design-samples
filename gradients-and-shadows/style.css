@@ -1,6 +1,8 @@
 body {
     padding: 2em;
     font-family: 'Nunito', sans-serif;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
 }
 
 h2 {
@@ -26,14 +28,14 @@ button {
 .container {
     padding: 4em;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 2em;
     height: 70vh;
 }
 
 #container-1 {
     background-image:
-            linear-gradient(to right, #FFFFFF 74.5%, #77258A 74.5%);
+            linear-gradient(to right, #EEEEEE 74.5%, #77258A 74.5%);
 }
 
 #container-1 button {
@@ -43,9 +45,10 @@ button {
 .card {
     border: none;
     border-radius: 2em;
-    padding: 2.5em;
-    display: inline-grid;
+    padding: 20px;
+    display: grid;
     grid-template-rows: 1fr 2fr 1fr;
+    min-width: 250px;
 }
 
 #card-1 {
@@ -74,8 +77,8 @@ button {
     background-image: linear-gradient(to bottom right, #f5d1ff, #8aaef7);
     color: #77258A;
     box-shadow: 9px 9px 9px rgba(0, 0, 0, .3);
-    margin-left: 2em;
-    margin-right: -1.8em;
+    margin-left: 30px;
+    margin-right: -30px;
 }
 
 #card-4-button {
@@ -104,8 +107,8 @@ button {
     box-shadow:
             12px 12px 12px #1c1b1b,
             -12px -12px 12px #3C3B3C !important;
-    margin-left: 2em;
-    margin-right: -1.8em;
+    margin-left: 30px;
+    margin-right: -30px;
 }
 
 #card-8-button {
