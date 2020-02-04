@@ -72,8 +72,9 @@ button {
 
 #card-4 {
     background-image: linear-gradient(to bottom right, #f5d1ff, #8aaef7);
-    color: black;
-    box-shadow: 9px 9px 9px #81A37A;
+    color: #77258A;
+    box-shadow: 9px 9px 9px rgba(0, 0, 0, .3);
+    margin-left: .8em;
 }
 
 #card-4-button {
@@ -102,6 +103,7 @@ button {
     box-shadow:
             12px 12px 12px #1c1b1b,
             -12px -12px 12px #3C3B3C !important;
+    margin-left: .8em;
 }
 
 #card-8-button {
