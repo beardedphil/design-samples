@@ -24,11 +24,11 @@ button {
 }
 
 .container {
-    padding: 2em;
+    padding: 4em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 2em;
-    height: 60vh;
+    height: 70vh;
 }
 
 #container-1 {
@@ -74,7 +74,8 @@ button {
     background-image: linear-gradient(to bottom right, #f5d1ff, #8aaef7);
     color: #77258A;
     box-shadow: 9px 9px 9px rgba(0, 0, 0, .3);
-    margin-left: .8em;
+    margin-left: 2em;
+    margin-right: -1.8em;
 }
 
 #card-4-button {
@@ -103,7 +104,8 @@ button {
     box-shadow:
             12px 12px 12px #1c1b1b,
             -12px -12px 12px #3C3B3C !important;
-    margin-left: .8em;
+    margin-left: 2em;
+    margin-right: -1.8em;
 }
 
 #card-8-button {
