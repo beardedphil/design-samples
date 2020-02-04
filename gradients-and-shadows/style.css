@@ -31,6 +31,11 @@ button {
     height: 60vh;
 }
 
+#container-1 {
+    background-image:
+            linear-gradient(to right, #FFFFFF 74.5%, #77258A 74.5%);
+}
+
 #container-1 button {
     background-color: white;
 }
@@ -44,48 +49,61 @@ button {
 }
 
 #card-1 {
-    background-image: linear-gradient(135deg, #7E1F86, #2E5EAA);
+    background-image: linear-gradient(to bottom right, #7E1F86, #2E5EAA);
     color: white;
     box-shadow: 9px 9px 9px #826587;
 }
 
 #card-2 {
-    background-image: linear-gradient(135deg, #6DAD4E, #094D92);
+    background-image: linear-gradient(to bottom right, #6DAD4E, #094D92);
     color: white;
     box-shadow: 9px 9px 9px #81A37A;
 }
 
 #card-3 {
-    background-image: linear-gradient(135deg, #7E1F86, #FC440F);
+    background-image: linear-gradient(to bottom right, #7E1F86, #FC440F);
     color: white;
     box-shadow: 9px 9px 9px #826587;
 }
 
 #card-3-button {
-    background-image: linear-gradient(45deg, #ff9984, #FFFFFF);
+    background-image: linear-gradient(to right, #ff9984, #FFFFFF);
 }
 
 #card-4 {
-    background-image: linear-gradient(135deg, #21A9D7, #1BAB6E);
-    color: white;
+    background-image: linear-gradient(to bottom right, #f5d1ff, #8aaef7);
+    color: black;
     box-shadow: 9px 9px 9px #81A37A;
 }
 
 #card-4-button {
-    background-image: linear-gradient(45deg, #4dc694, #FFFFFF);
+    background-image: linear-gradient(to right, #7E1F86, #2E5EAA);
+    color: white;
 }
 
 #container-2 {
     margin-top: 3em;
-    background-color: #EEEEEE;
+    background-image: linear-gradient(to right, #EEEEEE 74.5%, #333333 74.5%);
 }
 
 #container-2 .card {
     box-shadow:
-            12px 12px 12px rgba(0, 0, 0, .03),
-            -12px -12px 12px rgba(255, 255, 255, .7);
+            12px 12px 12px rgba(0, 0, 0, .06),
+            -12px -12px 12px rgba(255, 255, 255, .75);
 }
 
 #container-2 button {
     background-color: #4C4C4C;
+}
+
+#card-8 {
+    color: white;
+    background-color: #333333;
+    box-shadow:
+            12px 12px 12px #1c1b1b,
+            -12px -12px 12px #3C3B3C !important;
+}
+
+#card-8-button {
+    background-color: white !important;
 }
