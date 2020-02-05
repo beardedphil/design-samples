@@ -56,7 +56,7 @@ button {
     background-color: white;
 }
 
-#card-1-button #card-2-button {
+#card-1-button, #card-2-button {
     background-color: white;
 }
 
