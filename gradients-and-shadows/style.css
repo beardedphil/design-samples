@@ -20,7 +20,8 @@ button {
     height: 50px;
     font-family: inherit;
     font-weight: bold;
-    font-size: 18px
+    font-size: 18px;
+    letter-spacing: 0.1em;
 }
 
 .container {
@@ -114,18 +115,18 @@ button {
 }
 
 #card-container-6 {
-    background-color: #f7ec96;
+    background-color: #a3d1f7;
 }
 
 #card-6 {
-    background-color: #f7ec96;
+    background-color: #a3d1f7;
     box-shadow:
-            9px 9px 9px #9e9558,
-            -9px -9px 9px #f9f2bd;
+            9px 9px 9px #86aece,
+            -9px -9px 9px #c7e3f9;
 }
 
 #card-6-button {
-    background-color: #FC440F;
+    background-color: #014c89;
     color: white;
 }
 
