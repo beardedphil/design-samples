@@ -1,8 +1,6 @@
 body {
     padding: 2em;
     font-family: 'Nunito', sans-serif;
-    display: grid;
-    grid-template-rows: repeat(3, auto);
 }
 
 h2 {
@@ -30,7 +28,7 @@ button {
     padding: 20px;
     display: grid;
     grid-template-columns: repeat( auto-fit, minmax(320px, 1fr) );
-    grid-gap: 10px;
+    grid-gap: 40px 10px;
 }
 
 .card-container {
@@ -43,10 +41,6 @@ button {
     border: 1px solid black;
 }
 
-#container-1 button {
-    background-color: white;
-}
-
 .card {
     box-sizing: border-box;
     border: none;
@@ -56,6 +50,14 @@ button {
     grid-template-rows: 1fr 2fr 1fr;
     width: 100%;
     height: 600px;
+}
+
+#card-container-1, #card-container-2, #card-container-3 {
+    background-color: white;
+}
+
+#card-1-button #card-2-button {
+    background-color: white;
 }
 
 #card-1 {
@@ -80,14 +82,14 @@ button {
     background-image: linear-gradient(to right, #ff9984, #FFFFFF);
 }
 
+#card-container-4 {
+    background-color: #77258A;
+}
+
 #card-4 {
     background-image: linear-gradient(to bottom right, #f5d1ff, #8aaef7);
     color: #77258A;
     box-shadow: 9px 9px 9px rgba(0, 0, 0, .3);
-}
-
-#card-container-4 {
-    background-color: #77258A;
 }
 
 #card-4-button {
@@ -95,33 +97,66 @@ button {
     color: white;
 }
 
-#container-2 {
-    margin-top: 3em;
-    background-image: linear-gradient(to right, #EEEEEE 74.5%, #333333 74.5%);
+#card-container-5 {
+    background-color: #EEEEEE;
 }
 
-#container-2 .card {
+#card-5 {
+    background-color: #EEEEEE;
     box-shadow:
             12px 12px 12px rgba(0, 0, 0, .06),
             -12px -12px 12px rgba(255, 255, 255, .75);
 }
 
-#container-2 button {
+#card-5-button {
     background-color: #4C4C4C;
+    color: white;
 }
 
-#card-5 {
+#card-container-6 {
+    background-color: #f7ec96;
+}
 
+#card-6 {
+    background-color: #f7ec96;
+    box-shadow:
+            9px 9px 9px #9e9558,
+            -9px -9px 9px #f9f2bd;
+}
+
+#card-6-button {
+    background-color: #FC440F;
+    color: white;
+}
+
+#card-container-7 {
+    background-color: #fcaef5;
+}
+
+#card-7 {
+    background-color: #fcaef5;
+    box-shadow:
+            9px 9px 9px #c487be,
+            -9px -9px 9px #f9d6f6;
+}
+
+#card-7-button {
+    background-color: #7E1F86;
+    color: white;
+}
+
+#card-container-8 {
+    background-color: #333333;
 }
 
 #card-8 {
     color: white;
     background-color: #333333;
     box-shadow:
-            12px 12px 12px #1c1b1b,
-            -12px -12px 12px #3C3B3C !important;
+            9px 9px 9px #1c1b1b,
+            -9px -9px 9px #3C3B3C;
 }
 
 #card-8-button {
-    background-color: white !important;
+    background-color: white;
 }
