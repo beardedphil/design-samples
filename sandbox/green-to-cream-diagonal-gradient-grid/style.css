@@ -38,7 +38,7 @@ body {
     justify-self: right;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 567px) {
     .wrapper {
         grid-template-rows: repeat(6, 1fr);
     }
