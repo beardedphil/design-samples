@@ -1,0 +1,55 @@
+/*!**/
+/*    background: #98CCA3
+/*    red-brown: #2D1313*/
+/*    dark-olive: #2D2C13*/
+/*    yellow: #BCA84f*/
+/*    teal: #609E72*/
+/*    blue: #182733*/
+/* *!*/
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #98CCA3;
+}
+
+.flex-item {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.red-brown {
+    background-color: #2D1313;
+}
+
+.dark-olive {
+    background-color: #2D2C13;
+}
+
+.yellow {
+    background-color: #BCA84f;
+}
+
+.teal {
+    background-color: #609E72
+}
+
+.blue {
+    background-color: #182733;
+}
+
+
